@@ -313,7 +313,7 @@ class Institutions(_Endpoint):
 
 class Venues(_Endpoint):
     """Venues endpoint."""
-    name = "venues"
+    name = "sources"
     id_attrs = ("openalex", "issn", "issn_l", "mag")
     filter_attrs = (
         "cited_by_count",
